@@ -12,6 +12,8 @@
 
 © 2024-2026 河南农业大学 语言智能研究中心 (Language Intelligence Research Center, Henan Agricultural University)
 
+**创建及维护者 (Created & Maintained by)**: Li Pengpeng
+
 ---
 
 ## 权利授予
@@ -69,7 +71,7 @@
 
 ```
 @misc{TokenCorpus2024,
-  author = {河南农业大学语言智能研究中心},
+  author = {Li Pengpeng and 河南农业大学语言智能研究中心},
   title = {TokenCorpus: 计算机领域"Token"语义演变研究语料库},
   year = {2024-2026},
   publisher = {GitHub},
@@ -84,7 +86,7 @@
 
 - **机构**: 河南农业大学 语言智能研究中心
 - **GitHub**: https://github.com/LPPathenau/TokenCorpus
-- **邮箱**: [联系邮箱待补充]
+- **邮箱**: lppathenau@163.com
 
 ---
 

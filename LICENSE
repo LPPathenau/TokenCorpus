@@ -1,0 +1,91 @@
+# TokenCorpus 许可证
+
+## Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+## 版权所有
+
+**TokenCorpus: 计算机领域"Token"语义演变研究语料库**
+
+© 2024-2026 河南农业大学 语言智能研究中心 (Language Intelligence Research Center, Henan Agricultural University)
+
+---
+
+## 权利授予
+
+本作品根据 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) 授权。
+
+**您可以自由地：**
+
+- **共享 (Share)** — 以任何媒介或格式复制和分发本作品
+- **改编 (Remix)** — 重混、转换、基于本作品进行创作
+
+**在遵守以下条件时：**
+
+- **署名 (Attribution)** — 您必须给予适当的署名，提供本许可证的链接，并说明是否对原作品进行了修改。您可以（但不是必须）采用如下署名方式：
+  
+  ```
+  TokenCorpus (计算机领域"Token"语义演变研究语料库)
+  由河南农业大学语言智能研究中心创建
+  许可证: CC BY 4.0
+  https://github.com/LPPathenau/TokenCorpus
+  ```
+
+---
+
+## 合理使用
+
+本许可证不禁止或限制您参与**合理使用**（Fair Use）的权利，也不限制在适用法律允许范围内的**公平交易**（First Sale Doctrine）权利。
+
+---
+
+## 免责声明
+
+本语料库按"原样"提供，不提供任何明示或暗示的保证，包括但不限于：
+- 对适销性、特定用途适用性的保证
+- 对不侵权的保证
+
+创建者和贡献者不对因使用本语料库而产生的任何直接、间接、特殊、偶然或后果性损害承担责任。
+
+---
+
+## 数据来源说明
+
+本语料库收集自以下来源：
+- IETF RFC 标准文档（公共领域或授权使用）
+- arXiv 学术预印本（遵循各论文的版权许可）
+- 技术文档（OpenAI, HuggingFace, Ethereum 等）
+
+**重要**：使用本语料库时，请同时遵守各数据来源的原始版权声明。原始来源的版权仍归各自所有者所有。
+
+---
+
+## 学术引用
+
+如果您在学术研究中使用了本语料库，请按以下格式引用：
+
+```
+@misc{TokenCorpus2024,
+  author = {河南农业大学语言智能研究中心},
+  title = {TokenCorpus: 计算机领域"Token"语义演变研究语料库},
+  year = {2024-2026},
+  publisher = {GitHub},
+  journal = {TokenCorpus},
+  howpublished = {\url{https://github.com/LPPathenau/TokenCorpus}}
+}
+```
+
+---
+
+## 联系我们
+
+- **机构**: 河南农业大学 语言智能研究中心
+- **GitHub**: https://github.com/LPPathenau/TokenCorpus
+- **邮箱**: [联系邮箱待补充]
+
+---
+
+*本许可证的中文翻译仅供参考，如与英文原版有任何歧义，以英文原版为准。*

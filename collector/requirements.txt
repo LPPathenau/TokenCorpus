@@ -1,0 +1,21 @@
+# TokenCorpus Dependencies
+# TokenCorpus语料采集系统依赖
+
+# 核心依赖
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+nltk>=3.8.0
+feedparser>=6.0.0
+
+# 数据处理
+pandas>=1.5.0
+openpyxl>=3.0.0
+
+# 可选：进度条
+tqdm>=4.64.0
+rich>=13.0.0
+
+# 可选：高级文本处理
+scikit-learn>=1.2.0  # 用于SimHash去重
+textdistance>=4.5.0  # 用于字符串相似度计算

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<labeling_config>
+    <!-- TokenCorpus Label Studio 配置 -->
+    <!-- 用于多层次语义标注 -->
+    
+    <view>
+        <!-- 元信息显示 -->
+        <header>TokenCorpus 语义标注任务</header>
+        
+        <!-- 显示原文句子 -->
+        <text name="sentence" value="$sentence"/>
+        
+        <!-- 显示上下文 -->
+        <collapse>
+            <header>上下文信息</header>
+            <text name="context_before" value="前文: $context_before"/>
+            <text name="context_after" value="后文: $context_after"/>
+        </collapse>
+        
+        <!-- 显示来源信息 -->
+        <collapse>
+            <header>来源信息</header>
+            <text name="source_type" value="类型: $source_type"/>
+            <text name="source_name" value="来源: $source_name"/>
+            <text name="domain" value="领域: $domain"/>
+        </collapse>
+        
+        <!-- 语义类别标注 -->
+        <header>语义类别标注</header>
+        <Labels name="sense_label" toName="token_occurrence">
+            <Label value="T1a" background="#FF6B6B" alias="访问凭证"/>
+            <Label value="T1b" background="#FF8E72" alias="会话标识"/>
+            <Label value="T1c" background="#FFA07A" alias="CSRF防护"/>
+            <Label value="T1d" background="#FFB6C1" alias="刷新凭证"/>
+            <Label value="T2a" background="#4ECDC4" alias="文本单元"/>
+            <Label value="T2b" background="#45B7D1" alias="子词单元"/>
+            <Label value="T2c" background="#5DADE2" alias="分词器"/>
+            <Label value="T3a" background="#AF7AC5" alias="词法单元"/>
+            <Label value="T3b" background="#9B59B6" alias="语法标记"/>
+            <Label value="T4a" background="#DDA0DD" alias="加密代币"/>
+            <Label value="T4b" background="#E6E6FA" alias="功能代币"/>
+            <Label value="T5a" background="#96CEB4" alias="LLM处理单元"/>
+            <Label value="T5b" background="#A9DFBF" alias="计费单位"/>
+            <Label value="T5c" background="#ABEBC6" alias="上下文限制"/>
+            <Label value="T6a" background="#F9E79F" alias="控制信号"/>
+            <Label value="T7a" background="#D5DBDB" alias="历史用法"/>
+            <Label value="T0a" background="#CCCCCC" alias="未分类"/>
+        </Labels>
+        
+        <!-- Token出现位置标注 -->
+        <ner name="token_occurrence" value="$sentence" highlight="true"/>
+        
+        <!-- 隐喻类型标注 -->
+        <header>隐喻类型标注</header>
+        <Labels name="metaphor_type" toName="sentence">
+            <Label value="M0" background="#2ECC71" alias="字面意义"/>
+            <Label value="M1" background="#3498DB" alias="结构隐喻"/>
+            <Label value="M2" background="#9B59B6" alias="方位隐喻"/>
+            <Label value="M3" background="#E74C3C" alias="本体隐喻"/>
+            <Label value="M4" background="#95A5A6" alias="未知"/>
+        </Labels>
+        
+        <!-- 标注备注 -->
+        <header>标注备注</header>
+        <textarea name="annotator_notes" toName="sentence" 
+                  placeholder="记录标注依据或疑问"/>
+        
+        <!-- 置信度 -->
+        <header>标注置信度</header>
+        <rating name="confidence" toName="sentence" 
+                min="1" max="5" step="1" value="4"/>
+        
+        <!-- 提交按钮 -->
+        <button>提交标注</button>
+    </view>
+</labeling_config>
